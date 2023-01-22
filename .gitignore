@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Trace files
+trace/*
+
+# Certificates file
+web_server/cert/*

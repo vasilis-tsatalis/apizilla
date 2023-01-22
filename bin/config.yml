@@ -1,0 +1,32 @@
+########################################
+# # # ROUTES PARAMETERS # # #
+########################################
+# Configuration values for active routes
+CREATE_QRCODE_ROUTE: "/qrcode"
+CREATE_QRBILLMIN_SUISSE_ROUTE: "/ch/qrbillmin"
+
+CREATE_BARCODE_ROUTE: "/barcode"
+
+########################################
+# # # GENERAL PARAMETERS # # #
+########################################
+
+# System general local paths
+PATH_IMAGES: "./assets/images"
+PATH_LOGOS: "./assets/logos"
+PATH_DOCUMENTS: "./assets/documents"
+LOGGING_PATH:
+
+# QRCode local paths
+QR_PATH_SUISSE: "/storage/qrcode/suisse"
+QR_PATH_GREECE: "/storage/qrcode/greece"
+
+# Barcode local paths
+BARCODE_PATH_GREECE: "/storage/barcode/greece"
+
+# Files format ext
+LOG_FORMAT: ".log"
+IMG_FORMAT: ".png"
+SVG_FORMAT: ".svg"
+PDF_FORMAT: ".pdf"
+TEXT_FORMAT: ".txt"
